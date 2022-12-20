@@ -1,0 +1,80 @@
+#app-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#app-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.editor {
+  counter-reset: line;
+  border: 1px solid #ced4da;
+  margin-top: 20px;
+  width: 100%;
+ 
+}
+
+
+#compare-btn{
+
+  padding: 5px;
+  margin-top: 10px;
+  background-color: black;
+  color: #fff;
+
+}
+#error-box{
+  display: flex;
+  background-color: red;
+  padding: 10px;
+  margin: 10px;
+}
+
+#success-box{
+  display: flex;
+  background-color: green;
+  padding: 10px;
+  margin: 10px;
+}
+#error-message{
+  font-size: 14px;
+  color: #fff;
+
+}
+.errorHighLight{
+  border: solid 1px red;
+}
+.editor #codeArea1 {
+  outline: none;
+  padding-left: 60px !important;
+}
+.editor #codeArea2 {
+  outline: none;
+  padding-left: 60px !important;
+}
+
+.editor pre {
+  padding-left: 60px !important;
+}
+
+.editor .editorLineNumber {
+  position: absolute;
+  left: 0px;
+
+  color: #cccccc;
+  text-align: right;
+  width: 40px;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+#footer{
+  position: absolute;
+  bottom: 5px;
+
+}
